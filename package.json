@@ -1,0 +1,26 @@
+{
+  "name": "e-commerce",
+  "type": "module",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon --watch backend --exec node --experimental-modules  backend/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rodrigoemanuelde/parana-commerce-app.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rodrigoemanuelde/parana-commerce-app/issues"
+  },
+  "homepage": "https://github.com/rodrigoemanuelde/parana-commerce-app#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "description": "",
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
